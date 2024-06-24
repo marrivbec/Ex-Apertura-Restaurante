@@ -36,6 +36,7 @@ const loadModel = (sequelize, DataTypes) => {
       allowNull: false,
       type: DataTypes.STRING
     },
+
     postalCode: {
       allowNull: false,
       type: DataTypes.STRING
